@@ -12,5 +12,5 @@ jobs:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: Hey @${{ github.actor }} welcome to Open-Source KLH, thanks for raising you first issue on this project
-        pr-message: Hi @${{ github.actor }}, welcome to Open-Source KLH, thanks for raising you pull request on this project
+        issue-message: Hey @gudipudiramanakumar welcome to [opensource-klh](https://github.com/gudipudiramanakumar/opensource-klh/), thanks for raising your first issue on this project ![image](https://user-images.githubusercontent.com/47365328/152585846-efaba280-0f63-4451-af2d-42c092ce4d4a.png)
+        pr-message: Hey @gudipudiramanakumar welcome to [opensource-klh](https://github.com/gudipudiramanakumar/opensource-klh/), thanks for raising your first pull request on this project ![image](https://user-images.githubusercontent.com/47365328/152585846-efaba280-0f63-4451-af2d-42c092ce4d4a.png)
