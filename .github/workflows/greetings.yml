@@ -1,0 +1,16 @@
+name: Greetings from Open-Source KLH
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Hey **#** welcome to Open-Source KLH, thanks for raising you first issue on this project'
+        pr-message: 'Hi **#**, welcome to Open-Source KLH, thanks for raising you pull request on this project'
